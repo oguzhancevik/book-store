@@ -17,6 +17,9 @@ That is why stock consistency is the first priority for their vision operations.
 * Factory Pattern  
 * CQRS Pattern
 
+### Design :art:
+![DesignPhoto](static/chart.png)
+
 ### Swagger UI :gift:
 http://localhost:8080/swagger-ui/index.html
 
