@@ -17,5 +17,8 @@ That is why stock consistency is the first priority for their vision operations.
 * Factory Pattern  
 * CQRS Pattern
 
+### Swagger UI :gift:
+http://localhost:8080/swagger-ui/index.html
+
 ### License :key:
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
