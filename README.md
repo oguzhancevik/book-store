@@ -20,6 +20,11 @@ That is why stock consistency is the first priority for their vision operations.
 ### Design :art:
 ![DesignPhoto](static/chart.png)
 
+### Build & Run :rocket:
+``` 
+docker-compose up -d --build && mvn --projects io.pera:book-store spring-boot:run
+```
+
 ### Swagger UI :gift:
 http://localhost:8080/swagger-ui/index.html
 
