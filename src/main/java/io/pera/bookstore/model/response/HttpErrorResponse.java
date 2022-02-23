@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Data
 @Builder
-public class HttpErrorDTO {
+public class HttpErrorResponse {
 
     @Builder.Default
     private String code = EXCEPTION.DEFAULT_CODE;

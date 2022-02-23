@@ -7,7 +7,10 @@ import org.springframework.http.HttpStatus;
 @Getter
 public enum BusinessValidationRule {
 
-    CUSTOMER_NOT_FOUND("ERR-001", "Customer not found!");
+    CUSTOMER_NOT_FOUND("ERR-001", "Customer not found!"),
+    BOOK_NOT_FOUND("ERR-002", "Book not found!", HttpStatus.NO_CONTENT),
+    ORDER_NOT_FOUND("ERR-003", "Order not found!"),
+    INSUFFICIENT_STOCK("ERR-004", "Insufficient stock!");
 
     private String code = EXCEPTION.DEFAULT_CODE;
     private final String message;

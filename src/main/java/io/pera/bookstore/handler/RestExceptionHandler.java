@@ -1,7 +1,7 @@
 package io.pera.bookstore.handler;
 
 import io.pera.bookstore.model.exception.BusinessValidationException;
-import io.pera.bookstore.model.response.HttpErrorDTO;
+import io.pera.bookstore.model.response.HttpErrorResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
@@ -23,7 +23,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
 
         HttpStatus httpStatus = HttpStatus.BAD_REQUEST;
 
-        HttpErrorDTO httpError = HttpErrorDTO.builder()
+        HttpErrorResponse httpError = HttpErrorResponse.builder()
                 .message(ex.getMessage())
                 .build();
 
